@@ -1,3 +1,4 @@
+package pertemuan2;
 public class Node {
     private int nilai;
     private Node next;
@@ -5,8 +6,6 @@ public class Node {
     public Node (int nilai){
         this.nilai = nilai;
     }
-
-    // getter & setter
 
     public void setNilai (int nilai) {
         this.nilai = nilai;
