@@ -5,7 +5,7 @@ public class ListMain {
     public static void main (String[] args){
         strukturList list = new strukturList();
 
-//        latihan
+//        latihan-4
 
         System.out.println("Element: ");
         list.addTail(3);
@@ -47,9 +47,9 @@ public class ListMain {
         strukturList list4 = new strukturList();
         System.out.println();
         System.out.println("Tes-3:");
-        list4.addHead(3);
-        list4.addHead(2);
         list4.addHead(1);
+        list4.addHead(2);
+        list4.addHead(3);
         list4.displayElement();
 
 //        test-3
@@ -57,10 +57,10 @@ public class ListMain {
         strukturList list5 = new strukturList();
         System.out.println();
         System.out.println("Tes-3:");
-        list5.addHead(1);
-        list5.addHead(4);
-        list5.addHead(5);
         list5.addHead(7);
+        list5.addHead(5);
+        list5.addHead(4);
+        list5.addHead(1);
         list5.displayElement();
     }
 }
